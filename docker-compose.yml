@@ -1,6 +1,6 @@
 services:
   test:
-    image: ghcr.io/ppbrown/portainer-test:prod
+    image: ghcr.io/ppbrown/ghcr-test:prod
     pull_policy: always
     restart: unless-stopped
     ports:
